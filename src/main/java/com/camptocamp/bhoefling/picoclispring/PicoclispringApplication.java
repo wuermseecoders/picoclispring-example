@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class PicoclispringApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(PicoclispringApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(PicoclispringApplication.class, args);
+    }
 
 }
