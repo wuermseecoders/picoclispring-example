@@ -25,6 +25,7 @@ public class MyCommand implements Callable<Integer> {
 
     @Override
     public Integer call() {
+	System.out.println("Hello, World!");
         System.out.printf("report was called with -u=%s and -m=%s and positionals: %s%n", user, message, positionals);
         return 23;
     }
