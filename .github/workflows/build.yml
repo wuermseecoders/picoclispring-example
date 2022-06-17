@@ -10,7 +10,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     # Only analyze with Sonar on non-fork repos:
-    if: ${{secrets.SONAR_TOKEN}} != ''
+    if: (${{secrets.SONAR_TOKEN}} != '')
     steps:
       - uses: actions/checkout@v2
         with:
